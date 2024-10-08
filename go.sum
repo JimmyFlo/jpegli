@@ -1,0 +1,7 @@
+github.com/gen2brain/jpegli v0.2.3 h1:Mhg93/qMG2+3tSGAnBNobxvTOFs/S9kF03pwlIt9JPg=
+github.com/gen2brain/jpegli v0.2.3/go.mod h1:AEsiYsYQ6DQ/rBbr7Fz+8Wo5mTnlWKdHMVsJF64Ya6o=
+github.com/tetratelabs/wazero v1.7.3 h1:PBH5KVahrt3S2AHgEjKu4u+LlDbbk+nsGE3KLucy6Rw=
+github.com/tetratelabs/wazero v1.7.3/go.mod h1:ytl6Zuh20R/eROuyDaGPkp82O9C/DJfXAwJfQ3X6/7Y=
+golang.org/x/image v0.21.0 h1:c5qV36ajHpdj4Qi0GnE0jUc/yuo33OLFaa0d+crTD5s=
+golang.org/x/image v0.21.0/go.mod h1:vUbsLavqK/W303ZroQQVKQ+Af3Yl6Uz1Ppu5J/cLz78=
+golang.org/x/text v0.19.0/go.mod h1:BuEKDfySbSR4drPmRPG/7iBdf8hvFMuRexcpahXilzY=
