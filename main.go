@@ -14,12 +14,12 @@ import (
 	_ "golang.org/x/image/webp"
 
 	"github.com/gen2brain/jpegli"
-	_ "github.com/gen2brain/jpegli"
 )
 
 const (
 	defaultMaxWidth  = 2048
 	defaultMaxHeight = 1920
+	compressionQuality = 75
 	ext              = ".jpg"
 )
 
@@ -70,7 +70,7 @@ func standardize(imgPath string) error {
 	}
 
 	if err := jpegli.Encode(w, newImg, &jpegli.EncodingOptions{
-		Quality:           75,
+		Quality:           compressionQuality,
 		FancyDownsampling: true,
 		ProgressiveLevel:  2,
 	}); err != nil {
