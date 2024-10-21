@@ -10,6 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
+	_ "github.com/strukturag/libheif/go/heif"
 	"golang.org/x/image/draw"
 	_ "golang.org/x/image/webp"
 
@@ -17,15 +18,15 @@ import (
 )
 
 const (
-	defaultMaxWidth  = 2048
-	defaultMaxHeight = 1920
+	defaultMaxWidth    = 2048
+	defaultMaxHeight   = 1920
 	compressionQuality = 75
-	ext              = ".jpg"
+	ext                = ".jpg"
 )
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Printf("Usage: %s <image.jpg> [<image.png> <image.webp>…]\n", path.Base(os.Args[0]))
+		fmt.Printf("Usage: %s <image.jpg> [<image.png> <image.webp> <image.heic>…]\n", path.Base(os.Args[0]))
 		os.Exit(1)
 	}
 
