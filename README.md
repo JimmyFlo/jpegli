@@ -2,7 +2,7 @@
 
 A simple tool to reduce the pixel- and byte-size of JPEG, PNG, or WebP images using the JPEGli compressor.
 
-(WebP images are likely to be a little larger; but JPEG images still have greater support across the web!)
+(WebP images are likely to be a little smaller; but JPEG images still have greater support across the web!)
 
 Currently scales to a maximum of 2048×1920px and a(n excellent) quality of 75.
 
